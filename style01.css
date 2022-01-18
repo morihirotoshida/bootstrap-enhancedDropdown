@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+header div.menu {
+  visibility: hidden;
+  transition: .7s;
+  margin-top: 60px;
+}
+header div.menu.showUp {
+  visibility: visible;
+  margin-top: 0;
+  transition: .7s ease;
+}
+ul.dropdown-menu-macos {
+  width: 220px;
+  border: solid 1px gray;
+  border-radius: 4px;
+  margin: 0 0;
+  background-color: #fff;
+  position: absolute;
+  z-index: 10
+}
+div.menu {
+  position: absolute;
+  z-index: auto;
+}
+.navbar-toggler-icon {
+
+}
